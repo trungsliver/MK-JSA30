@@ -1,7 +1,7 @@
 // Bài 1: Note List
-    // Lấy danh sách notes từ localStorage hoặc khởi tạo nếu chưa có
+// Lấy danh sách notes từ localStorage hoặc khởi tạo nếu chưa có
 const notes = JSON.parse(localStorage.getItem('notes')) || [];
-    // Hàm hiển thị ghi chú lên giao diện
+// Hàm hiển thị ghi chú lên giao diện
 function displayNotes() {
     // Dùng DOM lấy container (thẻ div)
     const container = document.getElementById('note-list');
@@ -14,11 +14,11 @@ function displayNotes() {
 }
 displayNotes(); // Gọi hàm hiển thị khi trang được tải
 
-    // Xử lý sự kiện ấn nút 'Thêm'
+// Xử lý sự kiện ấn nút 'Thêm'
 const addBtn = document.getElementById('addNote');
 addBtn.onclick = () => {
     // Lấy nội dung từ ô input
-    let content = document.getElementById('noteContent').value.trim();
+    let content = document.getElementById('noteInput').value.trim();
     if (content) {
         // Thêm ghi chú vào danh sách notes
         notes.push(content);
@@ -27,6 +27,6 @@ addBtn.onclick = () => {
         // HIển thị lại danh sách ghi chú
         displayNotes();
         // Xóa nội dung trong ô input sau khi thêm
-        document.getElementById('noteContent').value = '';
+        document.getElementById('noteInput').value = '';
     }
 };
