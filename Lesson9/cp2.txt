@@ -12,3 +12,10 @@ Các file có trong folder:
 - tracnghiem.txt (ghi các đáp án trắc nghiệm vào file này)
 
 1B 2C 3D
+
+Đức Minh: 7/10 9/10 = 8
+Minh Quân: 9/10 9/10 = 9
+Minh Ngọc: 8/10 9/10 = 8.5
+Ngọc Huy: 7/10 8/10 = 7.5
+Quang Minh: 8/10 9/10 = 8.5
+Tiến Dũng: 7/10 9/10 = 8
