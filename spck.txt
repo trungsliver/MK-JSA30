@@ -21,5 +21,5 @@ Thứ tự thuyết trình JSA30
 - Slides:
 
 6. Tiến Dũng
-- Ý tưởng: website xem phim (netflix)
+- Ý tưởng: website xem phim (netflix) 
 - Slides:
